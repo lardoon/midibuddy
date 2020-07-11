@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MidiBuddyWeb", "MidiBuddyWeb\MidiBuddyWeb.csproj", "{2A352371-7D4C-4B27-B194-9BF6869C14D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIdiBuddyWebTests", "MIdiBuddyWebTests\MIdiBuddyWebTests.csproj", "{E02BCC04-A618-409F-B5D2-97D50EFB2F5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A352371-7D4C-4B27-B194-9BF6869C14D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A352371-7D4C-4B27-B194-9BF6869C14D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A352371-7D4C-4B27-B194-9BF6869C14D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A352371-7D4C-4B27-B194-9BF6869C14D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02BCC04-A618-409F-B5D2-97D50EFB2F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02BCC04-A618-409F-B5D2-97D50EFB2F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02BCC04-A618-409F-B5D2-97D50EFB2F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02BCC04-A618-409F-B5D2-97D50EFB2F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E81EF42-C01E-4A01-AFBF-A86431EEAE64}
+	EndGlobalSection
+EndGlobal

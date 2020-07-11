@@ -1,0 +1,91 @@
+<mat-vertical-stepper #stepper>
+  <mat-step label="Upload Midi File">
+    <div>
+      <button type="button" mat-raised-button (click)="fileInput.click()" accept="audio/mid,audio/midi">Choose File</button>
+      <input hidden (change)="onFileSelected($event.target.files)" #fileInput type="file" id="file">
+    </div>
+    <mat-progress-bar [value]="progress" (animationEnd)="stepper.next()"></mat-progress-bar>
+  </mat-step>
+  <mat-step label="Choose Tracks">
+
+    <table mat-table *ngIf="midiFileAnalysis" [dataSource]="midiFileAnalysis.Tracks" class="mat-elevation-z8" multiTemplateDataRows>
+
+      <!--- Note that these columns can be defined in any order.
+  The actual rendered columns are set as a property on the row definition" -->
+      <!-- Position Column -->
+      <ng-container matColumnDef="Name">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td (click)="expandedElement = (expandedElement === element) ? null : element" mat-cell *matCellDef="let element"> {{element.Name ? element.Name : '-- None --' }} </td>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="Channel">
+        <th mat-header-cell *matHeaderCellDef> Channel </th>
+        <td mat-cell *matCellDef="let element"> {{element.Channel}} </td>
+      </ng-container>
+      <!-- Name Column -->
+      <ng-container matColumnDef="Instrument">
+        <th mat-header-cell *matHeaderCellDef> Instrument </th>
+        <td mat-cell *matCellDef="let element"> {{element.Instrument | instrumentName }} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="InstrumentFamily">
+        <th mat-header-cell *matHeaderCellDef> Instrument Family </th>
+        <td mat-cell *matCellDef="let element"> {{element.Instrument | instrumentName: 'family' }} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="KitInstrument">
+        <th mat-header-cell *matHeaderCellDef> Kit Instrument </th>
+        <td mat-cell *matCellDef="let instrument">
+          <mat-select>
+            <mat-option value="ignore">-- Ignore --</mat-option>
+            <mat-option value="remove">-- Remove --</mat-option>
+            <mat-option value="bass">Bass</mat-option>
+            <mat-option value="organ"> Organ</mat-option>
+            <mat-option value="drums">Drums</mat-option>
+
+          </mat-select>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Notes">
+        <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
+          <mat-grid-list *ngIf="expandedElement === element" cols="3" rowHeight="3:1">
+            <mat-grid-tile *ngFor="let note of element.Notes">
+              <mat-form-field appearance="outline">
+                <mat-label>{{ note | noteName }}</mat-label>
+                <mat-select>
+                  <mat-option>A</mat-option>
+                  <mat-option value="ignore">-- Ignore --</mat-option>
+                  <mat-option value="remove">-- Remove --</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </mat-grid-tile>
+
+          </mat-grid-list>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"
+          class="example-element-row"
+          [class.example-expanded-row]="expandedElement === row"
+          ></tr>
+      <tr mat-row *matRowDef="let row; columns: ['Notes']" class="darken example-detail-row"></tr>
+    </table>
+  </mat-step>
+  <mat-step label="Select Options">
+    <table matTable>
+      <tr>
+      </tr>
+    </table>
+  </mat-step>
+  <mat-step label="Export">
+    <table matTable>
+      <tr>
+        <td>p[</td>
+      </tr>
+    </table>
+  </mat-step>
+</mat-vertical-stepper>
