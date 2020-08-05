@@ -6,8 +6,8 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G5"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G", "OctaveMiddleC4": 5
       }
     }
   },
@@ -18,8 +18,8 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F♯5"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F♯", "OctaveMiddleC4": 5
       }
     }
   },
@@ -30,8 +30,8 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F5"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F", "OctaveMiddleC4": 5
       }
     }
   },
@@ -42,8 +42,8 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E5"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E", "OctaveMiddleC4": 5
       }
     }
   },
@@ -54,8 +54,8 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E♭5"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E♭", "OctaveMiddleC4": 5
       }
     }
   },
@@ -66,8 +66,8 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "D5"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "D", "OctaveMiddleC4": 5
       }
     }
   },
@@ -78,8 +78,8 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C♯5"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C♯", "OctaveMiddleC4": 5
       }
     }
   },
@@ -90,8 +90,8 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C5"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C", "OctaveMiddleC4": 5
       }
     }
   },
@@ -102,8 +102,8 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B", "OctaveMiddleC4": 4
       }
     }
   },
@@ -114,8 +114,8 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B♭4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B♭", "OctaveMiddleC4": 4
       }
     }
   },
@@ -126,8 +126,8 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "A4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "A", "OctaveMiddleC4": 4
       }
     }
   },
@@ -138,8 +138,8 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G♯4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G♯", "OctaveMiddleC4": 4
       }
     }
   },
@@ -150,12 +150,12 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "G3"
+        "KitNote": "G", "OctaveMiddleC4": 3
       }
     }
   },
@@ -166,12 +166,12 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F♯4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F♯", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "F♯3"
+        "KitNote": "F♯", "OctaveMiddleC4": 3
       }
     }
   },
@@ -182,12 +182,12 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "F3"
+        "KitNote": "F", "OctaveMiddleC4": 3
       }
     }
   },
@@ -198,12 +198,12 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "E3"
+        "KitNote": "E", "OctaveMiddleC4": 3
       }
     }
   },
@@ -214,12 +214,12 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E♭4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E♭", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "E♭3"
+        "KitNote": "E♭", "OctaveMiddleC4": 3
       }
     }
   },
@@ -230,12 +230,12 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "D4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "D", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "D3"
+        "KitNote": "D", "OctaveMiddleC4": 3
       }
     }
   },
@@ -246,12 +246,12 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C♯4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C♯", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "C♯3"
+        "KitNote": "C♯", "OctaveMiddleC4": 3
       }
     }
   },
@@ -262,12 +262,12 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C4"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "C3"
+        "KitNote": "C", "OctaveMiddleC4": 3
       }
     }
   },
@@ -278,12 +278,12 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "B2"
+        "KitNote": "B", "OctaveMiddleC4": 2
       }
     }
   },
@@ -294,12 +294,12 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B♭3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B♭", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "A♯2"
+        "KitNote": "A♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -310,12 +310,12 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "A3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "A", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "A2"
+        "KitNote": "A", "OctaveMiddleC4": 2
       }
     }
   },
@@ -330,12 +330,12 @@
         "KitNote": "Shekere Side to side"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G♯3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G♯", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "G♯2"
+        "KitNote": "G♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -350,12 +350,12 @@
         "KitNote": "Shekere Bass"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "G2"
+        "KitNote": "G", "OctaveMiddleC4": 2
       }
     }
   },
@@ -370,12 +370,12 @@
         "KitNote": "Shekere Down"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F♯3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F♯", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "F♯2"
+        "KitNote": "F♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -390,12 +390,12 @@
         "KitNote": "Shekere Up"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "F2"
+        "KitNote": "F", "OctaveMiddleC4": 2
       }
     }
   },
@@ -406,12 +406,12 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "E2"
+        "KitNote": "E", "OctaveMiddleC4": 2
       }
     }
   },
@@ -422,12 +422,12 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E♭3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E♭", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "E♭2"
+        "KitNote": "E♭", "OctaveMiddleC4": 2
       }
     }
   },
@@ -438,12 +438,12 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "D3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "D", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "D2"
+        "KitNote": "D", "OctaveMiddleC4": 2
       }
     }
   },
@@ -454,12 +454,12 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C♯3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C♯", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "C♯2"
+        "KitNote": "C♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -470,12 +470,12 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C3"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "C2"
+        "KitNote": "C", "OctaveMiddleC4": 2
       }
     }
   },
@@ -486,12 +486,12 @@
     "OctaveMiddleC4": 6,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "B1"
+        "KitNote": "B", "OctaveMiddleC4": 1
       }
     }
   },
@@ -502,12 +502,12 @@
     "OctaveMiddleC4": 6,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B♭2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B♭", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "B♭1"
+        "KitNote": "B♭", "OctaveMiddleC4": 1
       }
     }
   },
@@ -518,12 +518,12 @@
     "OctaveMiddleC4": 6,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "A2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "A", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "A1"
+        "KitNote": "A", "OctaveMiddleC4": 1
       }
     }
   },
@@ -534,12 +534,12 @@
     "OctaveMiddleC4": 6,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G♯2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G♯", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "G♯1"
+        "KitNote": "G♯", "OctaveMiddleC4": 1
       }
     }
   },
@@ -554,16 +554,16 @@
         "KitNote": "Timbales- cymbal ride"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "G1"
+        "KitNote": "G", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "G3"
+        "KitNote": "G", "OctaveMiddleC4": 3
       }
     }
   },
@@ -578,16 +578,16 @@
         "KitNote": "Timbales- cymbal crash"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F♯2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F♯", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "F♯1"
+        "KitNote": "F♯", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "F♯3"
+        "KitNote": "F♯", "OctaveMiddleC4": 3
       }
     }
   },
@@ -602,16 +602,16 @@
         "KitNote": "Timbales- cencero bell"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "F1"
+        "KitNote": "F", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "F3"
+        "KitNote": "F", "OctaveMiddleC4": 3
       }
     }
   },
@@ -626,16 +626,16 @@
         "KitNote": "Timbales- Cha Cha bell"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "E1"
+        "KitNote": "E", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "E3"
+        "KitNote": "E", "OctaveMiddleC4": 3
       }
     }
   },
@@ -654,16 +654,16 @@
         "KitNote": "Timbales- cascara L"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E♭2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E♭", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
         "Instrument": "Bass",
-        "KitNote": "E♭1"
+        "KitNote": "E♭", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "E♭3"
+        "KitNote": "E♭", "OctaveMiddleC4": 3
       }
     }
   },
@@ -682,12 +682,12 @@
         "KitNote": "Timbales- cascara R"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "D2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "D", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "D3"
+        "KitNote": "D", "OctaveMiddleC4": 3
       }
     }
   },
@@ -706,12 +706,12 @@
         "KitNote": "Bongo Low- palm"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C♯2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C♯", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "C♯3"
+        "KitNote": "C♯", "OctaveMiddleC4": 3
       }
     }
   },
@@ -730,12 +730,12 @@
         "KitNote": "Bongo Low- closed slap"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C2"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "C3"
+        "KitNote": "C", "OctaveMiddleC4": 3
       }
     }
   },
@@ -758,12 +758,12 @@
         "KitNote": "Castanetes"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "B2"
+        "KitNote": "B", "OctaveMiddleC4": 2
       }
     }
   },
@@ -846,8 +846,8 @@
         "KitNote": "Shaker"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B♭1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B♭", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Drums",
@@ -855,7 +855,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "A♯2"
+        "KitNote": "A♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -882,8 +882,8 @@
         "KitNote": "Open Triangle"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "A1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "A", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -895,7 +895,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "A2"
+        "KitNote": "A", "OctaveMiddleC4": 2
       }
     }
   },
@@ -922,8 +922,8 @@
         "KitNote": "Mute Triangle"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G♯1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G♯", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Drums",
@@ -931,7 +931,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "G♯2"
+        "KitNote": "G♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -954,8 +954,8 @@
         "KitNote": "Open Cuica"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Drums",
@@ -963,7 +963,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "G2"
+        "KitNote": "G", "OctaveMiddleC4": 2
       }
     }
   },
@@ -986,8 +986,8 @@
         "KitNote": "Mute Cuica"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F♯1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F♯", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Drums",
@@ -995,7 +995,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "F♯2"
+        "KitNote": "F♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -1018,8 +1018,8 @@
         "KitNote": "Low Woodblock"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1031,7 +1031,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "F2"
+        "KitNote": "F", "OctaveMiddleC4": 2
       }
     }
   },
@@ -1058,8 +1058,8 @@
         "KitNote": "Hi Woodblock"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1071,7 +1071,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "E2"
+        "KitNote": "E", "OctaveMiddleC4": 2
       }
     }
   },
@@ -1102,8 +1102,8 @@
         "KitNote": "Clave"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E♭1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E♭", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1115,7 +1115,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "E♭2"
+        "KitNote": "E♭", "OctaveMiddleC4": 2
       }
     }
   },
@@ -1138,8 +1138,8 @@
         "KitNote": "Long Guiro"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "D1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "D", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1151,7 +1151,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "D2"
+        "KitNote": "D", "OctaveMiddleC4": 2
       }
     }
   },
@@ -1174,8 +1174,8 @@
         "KitNote": "Short Guiro"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C♯1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C♯", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1187,7 +1187,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "C♯2"
+        "KitNote": "C♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -1206,8 +1206,8 @@
         "KitNote": "Long Whistle"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C1"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Drums",
@@ -1215,7 +1215,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "C2"
+        "KitNote": "C", "OctaveMiddleC4": 2
       }
     }
   },
@@ -1238,8 +1238,8 @@
         "KitNote": "Short Whistle"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B", "OctaveMiddleC4": 0
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Drums",
@@ -1247,7 +1247,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "B1"
+        "KitNote": "B", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1274,8 +1274,8 @@
         "KitNote": "Maracas"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "B♭0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "B♭", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1287,7 +1287,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "B♭1"
+        "KitNote": "B♭", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1314,8 +1314,8 @@
         "KitNote": "Cabasa"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "A0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "A", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1327,7 +1327,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "A1"
+        "KitNote": "A", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1354,8 +1354,8 @@
         "KitNote": "Agogo Low"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G♯0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G♯", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1367,7 +1367,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "G♯1"
+        "KitNote": "G♯", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1394,8 +1394,8 @@
         "KitNote": "High Agogo"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "G0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "G", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1407,7 +1407,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "G1"
+        "KitNote": "G", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1430,8 +1430,8 @@
         "KitNote": "Low Timbale"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F♯0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F♯", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1443,7 +1443,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "F♯1"
+        "KitNote": "F♯", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1466,8 +1466,8 @@
         "KitNote": "High Timbale"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "F0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "F", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1479,7 +1479,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "F1"
+        "KitNote": "F", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1502,8 +1502,8 @@
         "KitNote": "Low Conga"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1515,7 +1515,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "E1"
+        "KitNote": "E", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1542,8 +1542,8 @@
         "KitNote": "Open High Conga"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "E♭0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "E♭", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1555,7 +1555,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "E♭1"
+        "KitNote": "E♭", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1582,8 +1582,8 @@
         "KitNote": "Hi Conga Mute"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "D0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "D", "OctaveMiddleC4": 0
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Drums",
@@ -1591,7 +1591,7 @@
       },
       "Sub-Std Pro PL Bass 62-91": {
         "Instrument": "Bass",
-        "KitNote": "D1"
+        "KitNote": "D", "OctaveMiddleC4": 1
       }
     }
   },
@@ -1618,8 +1618,8 @@
         "KitNote": "Low Bongo"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C♯0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C♯", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -1658,8 +1658,8 @@
         "KitNote": "Hi Bongo"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Hammond",
-        "KitNote": "C0"
+        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "KitNote": "C", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
         "Instrument": "Drums",
@@ -3763,11 +3763,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "G3"
+        "KitNote": "G", "OctaveMiddleC4": 3
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "G3"
+        "KitNote": "G", "OctaveMiddleC4": 3
       }
     }
   },
@@ -3783,11 +3783,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "F♯3"
+        "KitNote": "F♯", "OctaveMiddleC4": 3
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "F♯3"
+        "KitNote": "F♯", "OctaveMiddleC4": 3
       }
     }
   },
@@ -3807,11 +3807,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "F3"
+        "KitNote": "F", "OctaveMiddleC4": 3
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "F3"
+        "KitNote": "F", "OctaveMiddleC4": 3
       }
     }
   },
@@ -3835,11 +3835,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "E3"
+        "KitNote": "E", "OctaveMiddleC4": 3
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "E3"
+        "KitNote": "E", "OctaveMiddleC4": 3
       }
     }
   },
@@ -3863,11 +3863,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "E♭3"
+        "KitNote": "E♭", "OctaveMiddleC4": 3
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "E♭3"
+        "KitNote": "E♭", "OctaveMiddleC4": 3
       }
     }
   },
@@ -3887,11 +3887,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "D3"
+        "KitNote": "D", "OctaveMiddleC4": 3
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "D3"
+        "KitNote": "D", "OctaveMiddleC4": 3
       }
     }
   },
@@ -3911,11 +3911,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "C♯3"
+        "KitNote": "C♯", "OctaveMiddleC4": 3
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "C♯3"
+        "KitNote": "C♯", "OctaveMiddleC4": 3
       }
     }
   },
@@ -3935,11 +3935,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "C3"
+        "KitNote": "C", "OctaveMiddleC4": 3
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "C3"
+        "KitNote": "C", "OctaveMiddleC4": 3
       }
     }
   },
@@ -3955,11 +3955,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "B2"
+        "KitNote": "B", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "B2"
+        "KitNote": "B", "OctaveMiddleC4": 2
       }
     }
   },
@@ -3975,11 +3975,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "A♯2"
+        "KitNote": "A♯", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "A♯2"
+        "KitNote": "A♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -3995,11 +3995,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "A2"
+        "KitNote": "A", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "A2"
+        "KitNote": "A", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4015,11 +4015,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "G♯2"
+        "KitNote": "G♯", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "G♯2"
+        "KitNote": "G♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4035,11 +4035,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "G2"
+        "KitNote": "G", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "G2"
+        "KitNote": "G", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4055,11 +4055,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "F♯2"
+        "KitNote": "F♯", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "F♯2"
+        "KitNote": "F♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4075,11 +4075,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "F2"
+        "KitNote": "F", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "F2"
+        "KitNote": "F", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4095,11 +4095,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "E2"
+        "KitNote": "E", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "E2"
+        "KitNote": "E", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4115,11 +4115,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "E♭2"
+        "KitNote": "E♭", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "E♭2"
+        "KitNote": "E♭", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4135,11 +4135,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "D2"
+        "KitNote": "D", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "D2"
+        "KitNote": "D", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4159,11 +4159,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "C♯2"
+        "KitNote": "C♯", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "C♯2"
+        "KitNote": "C♯", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4179,11 +4179,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "C2"
+        "KitNote": "C", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "C2"
+        "KitNote": "C", "OctaveMiddleC4": 2
       }
     }
   },
@@ -4203,11 +4203,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "B1"
+        "KitNote": "B", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "B1"
+        "KitNote": "B", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4223,11 +4223,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "B♭1"
+        "KitNote": "B♭", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "B♭1"
+        "KitNote": "B♭", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4243,11 +4243,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "A1"
+        "KitNote": "A", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "A1"
+        "KitNote": "A", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4267,11 +4267,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "G♯1"
+        "KitNote": "G♯", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "G♯1"
+        "KitNote": "G♯", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4287,11 +4287,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "G1"
+        "KitNote": "G", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "G1"
+        "KitNote": "G", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4307,11 +4307,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "F♯1"
+        "KitNote": "F♯", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "F♯1"
+        "KitNote": "F♯", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4331,11 +4331,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "F1"
+        "KitNote": "F", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "F1"
+        "KitNote": "F", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4351,11 +4351,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "E1"
+        "KitNote": "E", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "E1"
+        "KitNote": "E", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4371,11 +4371,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "E♭1"
+        "KitNote": "E♭", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "E♭1"
+        "KitNote": "E♭", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4391,11 +4391,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "D1"
+        "KitNote": "D", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "D1"
+        "KitNote": "D", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4419,11 +4419,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "C♯1"
+        "KitNote": "C♯", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "C♯1"
+        "KitNote": "C♯", "OctaveMiddleC4": 1
       }
     }
   },
@@ -4443,11 +4443,11 @@
       },
       "2082 Hammond with Bass 60+C0": {
         "Instrument": "Bass",
-        "KitNote": "C1"
+        "KitNote": "C", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
         "Instrument": "Bass",
-        "KitNote": "C1"
+        "KitNote": "C", "OctaveMiddleC4": 1
       }
     }
   }

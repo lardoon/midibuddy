@@ -11,9 +11,10 @@ export class FileUploadService {
   constructor(private http: HttpClient) { }
 
   getDrumKits(): Observable<IResult> {
-    let url = 'api/GetDrumkits';
+    let url = 'api/Drumkit';
     
     let params = new HttpParams();
+    params.append('Accept', 'application/json')
 
     const options = {
       params: params,
@@ -31,7 +32,7 @@ export class FileUploadService {
       } else if (event instanceof HttpResponse) {
         return {
           progress: 100,
-          data: event.body
+          data: JSON.parse(event.body + '')
         }
       }
     }));

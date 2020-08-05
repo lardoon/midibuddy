@@ -22,7 +22,35 @@ export class HomeComponent implements OnInit {
   expandedElement: any;
   constructor(private fileUploadService: FileUploadService) { }
 
+  kitData: Array<any>;
+    kits: any;
+
   ngOnInit() {
+
+    this.fileUploadService.getDrumKits()
+      .subscribe((result) => {
+        if (!result)
+          return;
+        if (!result.data || result.progress != 100) {
+          this.progress = result.progress;
+          console.log(`Kits are ${this.progress}% loaded.`);
+        } else {
+          let data = this.kitData = <Array<any>>result.data;
+          this.kits = {};
+          data.forEach((n) => {
+            let kits = <Object>n.Kits;
+
+            Object.keys(kits).forEach(k => {
+              let d = this.kits[k] || {};
+              if (!Object.keys(d).includes(kits[k].Instrument)) {
+                d[kits[k].Instrument] = kits[k].DisplayInstrument || kits[k].Instrument;
+              }
+              this.kits[k] = d;
+            })
+
+          });
+        }
+      });
   }
 
   onFileSelected(files: FileList) {

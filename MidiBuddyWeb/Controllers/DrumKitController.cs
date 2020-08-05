@@ -15,7 +15,7 @@ namespace MidiBuddyWeb.Controllers
     {
         
         [HttpGet]
-        public JsonResult GetDrumkits()
+        public ActionResult GetDrumkits()
         {
             
             return new JsonResult(Encoding.UTF8.GetString(Properties.Resources.map));
