@@ -47,7 +47,10 @@ import { MatSelectModule } from '@angular/material/select';
     MatSelectModule,
     
   ],
-  providers: [],
+  providers: [
+    InstrumentNamePipe,
+    NoteNamePipe
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

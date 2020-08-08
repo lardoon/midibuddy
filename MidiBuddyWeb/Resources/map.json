@@ -6,7 +6,7 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G", "OctaveMiddleC4": 5
       }
     }
@@ -18,7 +18,7 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F♯", "OctaveMiddleC4": 5
       }
     }
@@ -30,7 +30,7 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F", "OctaveMiddleC4": 5
       }
     }
@@ -42,7 +42,7 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E", "OctaveMiddleC4": 5
       }
     }
@@ -54,7 +54,7 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E♭", "OctaveMiddleC4": 5
       }
     }
@@ -66,7 +66,7 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "D", "OctaveMiddleC4": 5
       }
     }
@@ -78,7 +78,7 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C♯", "OctaveMiddleC4": 5
       }
     }
@@ -90,7 +90,7 @@
     "OctaveMiddleC4": 9,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C", "OctaveMiddleC4": 5
       }
     }
@@ -102,7 +102,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B", "OctaveMiddleC4": 4
       }
     }
@@ -114,7 +114,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B♭", "OctaveMiddleC4": 4
       }
     }
@@ -126,7 +126,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "A", "OctaveMiddleC4": 4
       }
     }
@@ -138,7 +138,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G♯", "OctaveMiddleC4": 4
       }
     }
@@ -150,7 +150,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
@@ -166,7 +166,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F♯", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
@@ -182,7 +182,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
@@ -198,7 +198,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
@@ -214,7 +214,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E♭", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
@@ -230,7 +230,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "D", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
@@ -246,7 +246,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C♯", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
@@ -262,7 +262,7 @@
     "OctaveMiddleC4": 8,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C", "OctaveMiddleC4": 4
       },
       "Standard P Bass": {
@@ -278,7 +278,7 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -294,7 +294,7 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B♭", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -310,7 +310,7 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "A", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -330,7 +330,7 @@
         "KitNote": "Shekere Side to side"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G♯", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -350,7 +350,7 @@
         "KitNote": "Shekere Bass"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -370,7 +370,7 @@
         "KitNote": "Shekere Down"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F♯", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -390,7 +390,7 @@
         "KitNote": "Shekere Up"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -406,7 +406,7 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -422,7 +422,7 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E♭", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -438,7 +438,7 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "D", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -454,7 +454,7 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C♯", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -470,7 +470,7 @@
     "OctaveMiddleC4": 7,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C", "OctaveMiddleC4": 3
       },
       "Standard P Bass": {
@@ -486,7 +486,7 @@
     "OctaveMiddleC4": 6,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -502,7 +502,7 @@
     "OctaveMiddleC4": 6,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B♭", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -518,7 +518,7 @@
     "OctaveMiddleC4": 6,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "A", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -534,7 +534,7 @@
     "OctaveMiddleC4": 6,
     "Kits": {
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G♯", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -554,7 +554,7 @@
         "KitNote": "Timbales- cymbal ride"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -578,7 +578,7 @@
         "KitNote": "Timbales- cymbal crash"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F♯", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -602,7 +602,7 @@
         "KitNote": "Timbales- cencero bell"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -626,7 +626,7 @@
         "KitNote": "Timbales- Cha Cha bell"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -654,7 +654,7 @@
         "KitNote": "Timbales- cascara L"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E♭", "OctaveMiddleC4": 2
       },
       "Standard P Bass": {
@@ -682,7 +682,7 @@
         "KitNote": "Timbales- cascara R"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "D", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 62-91": {
@@ -706,7 +706,7 @@
         "KitNote": "Bongo Low- palm"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C♯", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 62-91": {
@@ -730,7 +730,7 @@
         "KitNote": "Bongo Low- closed slap"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C", "OctaveMiddleC4": 2
       },
       "Sub-Std Pro PL Bass 62-91": {
@@ -758,7 +758,7 @@
         "KitNote": "Castanetes"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 62-91": {
@@ -846,7 +846,7 @@
         "KitNote": "Shaker"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B♭", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
@@ -882,7 +882,7 @@
         "KitNote": "Open Triangle"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "A", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
@@ -922,7 +922,7 @@
         "KitNote": "Mute Triangle"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G♯", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
@@ -954,7 +954,7 @@
         "KitNote": "Open Cuica"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
@@ -986,7 +986,7 @@
         "KitNote": "Mute Cuica"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F♯", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
@@ -1018,7 +1018,7 @@
         "KitNote": "Low Woodblock"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
@@ -1058,7 +1058,7 @@
         "KitNote": "Hi Woodblock"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
@@ -1102,7 +1102,7 @@
         "KitNote": "Clave"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E♭", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
@@ -1138,7 +1138,7 @@
         "KitNote": "Long Guiro"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "D", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
@@ -1174,7 +1174,7 @@
         "KitNote": "Short Guiro"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C♯", "OctaveMiddleC4": 1
       },
       "Standard P Bass": {
@@ -1206,7 +1206,7 @@
         "KitNote": "Long Whistle"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C", "OctaveMiddleC4": 1
       },
       "Sub-Std Pro PL Bass 0-31": {
@@ -1238,7 +1238,7 @@
         "KitNote": "Short Whistle"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B", "OctaveMiddleC4": 0
       },
       "Sub-Std Pro PL Bass 0-31": {
@@ -1274,7 +1274,7 @@
         "KitNote": "Maracas"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "B♭", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1314,7 +1314,7 @@
         "KitNote": "Cabasa"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "A", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1354,7 +1354,7 @@
         "KitNote": "Agogo Low"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G♯", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1394,7 +1394,7 @@
         "KitNote": "High Agogo"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "G", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1430,7 +1430,7 @@
         "KitNote": "Low Timbale"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F♯", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1466,7 +1466,7 @@
         "KitNote": "High Timbale"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "F", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1502,7 +1502,7 @@
         "KitNote": "Low Conga"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1542,7 +1542,7 @@
         "KitNote": "Open High Conga"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "E♭", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1582,7 +1582,7 @@
         "KitNote": "Hi Conga Mute"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "D", "OctaveMiddleC4": 0
       },
       "Sub-Std Pro PL Bass 0-31": {
@@ -1618,7 +1618,7 @@
         "KitNote": "Low Bongo"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C♯", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {
@@ -1658,7 +1658,7 @@
         "KitNote": "Hi Bongo"
       },
       "2082 Hammond with Bass 60+C0": {
-        "Instrument": "Organ", "DisplayInstrument": "Hammond",
+        "Instrument": 18, "InstrumentFamily": "Organ", "InstrumentDisplayName": "Hammond",
         "KitNote": "C", "OctaveMiddleC4": 0
       },
       "Standard P Bass": {

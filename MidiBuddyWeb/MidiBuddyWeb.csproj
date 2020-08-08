@@ -31,6 +31,7 @@
 
   <ItemGroup>
     <None Remove="ClientApp\src\app\model\Note.ts" />
+    <None Remove="ClientApp\src\app\model\TrackModel.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +40,7 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\app\model\Note.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\model\TrackModel.ts" />
   </ItemGroup>
 
   <ItemGroup>
