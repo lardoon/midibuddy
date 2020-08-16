@@ -67,7 +67,7 @@ namespace MIdiBuddyWebTests
         public async Task ConvertJson()
         {
             var csvPath = @"C:\Users\sweet\Downloads\Beat Buddy Midi Drum Map - Map (1).csv";
-            var records = new Dictionary<Tuple<int, int, int, string>, Dictionary<string, InstrumentNote>>();
+            var records = new Dictionary<Tuple<int, int, int, string, string>, Dictionary<string, InstrumentNote>>();
             using (var reader = new StreamReader(csvPath))
             using (var writer = new StreamWriter("map.json"))
             using (var csvReader = new CsvHelper.CsvReader(reader, CultureInfo.InvariantCulture))
@@ -85,7 +85,8 @@ namespace MIdiBuddyWebTests
                     var midiNote = Convert.ToString(inRecord["Note"]);
                     var octaveMiddleC3 = Convert.ToInt32(inRecord["Octave (Middle C3)"]);
                     var octaveMiddleC4 = Convert.ToInt32(inRecord["Octave (Middle C4)"]);
-                    var dictKey = Tuple.Create(number, octaveMiddleC3, octaveMiddleC4, midiNote);
+                    var gmDrums = Convert.ToString(inRecord["Drums"]);
+                    var dictKey = Tuple.Create(number, octaveMiddleC3, octaveMiddleC4, midiNote, gmDrums);
                     Dictionary<string, InstrumentNote> dict;
                     if(!records.TryGetValue(dictKey, out dict))
                     {
@@ -93,27 +94,31 @@ namespace MIdiBuddyWebTests
                         records.Add(dictKey, dict);
                     }
                     
-                    for (var k = 4; k < keys.Count; k++)
+                    for (var k = 5; k < keys.Count; k++)
                     {
                         var key = keys.ElementAt(k);
                         var value = Convert.ToString(inRecord[key]);
                          if (string.IsNullOrWhiteSpace(value))
                            continue;
-                        var instrimentNote = GetInstrumentNote(value);
-                        dict.Add(key, instrimentNote);
+                        var instrumentNote = GetInstrumentNote(value);
+                        dict.Add(key, instrumentNote);
                         
                     }
                 }
-                var output = new List<JsonRecord>();
+                var output = new Result();
+                output.KitInstruments = new Dictionary<string, Dictionary<string, string>>();
+                output.Records = new List<JsonRecord>();
                 foreach(var record in records.Keys)
                 {
-                    output.Add(new JsonRecord()
+                    // var dict = output.KitInstruments.GetValueOrDefault(d)
+                    output.Records.Add(new JsonRecord()
                     {
                         Kits = records[record],
                         Number = record.Item1,
                         OctaveMiddleC3 = record.Item2,
                         OctaveMiddleC4 = record.Item3,
-                        MidiNote = record.Item4
+                        MidiNote = record.Item4,
+                        Drums = record.Item5
                     });
                 }
                 var json = JsonConvert.SerializeObject(output);
@@ -129,12 +134,23 @@ namespace MIdiBuddyWebTests
                 return instrumentNote;
             }
             if (value.StartsWith("Hammond ", StringComparison.InvariantCultureIgnoreCase))
-                instrumentNote.Instrument = "Hammond";
+            {
+                instrumentNote.InstrumentDisplayName = "Hammond";
+                instrumentNote.Instrument = "Rock Organ";
+                instrumentNote.InstrumentFamily = "Organ";
+            }
+
             if (value.StartsWith("Bass ", StringComparison.InvariantCultureIgnoreCase) && !value.StartsWith("Bass Drum", StringComparison.InvariantCultureIgnoreCase))
-                instrumentNote.Instrument = "Bass";
+            {
+                instrumentNote.InstrumentDisplayName = instrumentNote.Instrument = instrumentNote.InstrumentFamily = "Bass";
+            }
+
             if (value.StartsWith("Organ ", StringComparison.InvariantCultureIgnoreCase))
-                instrumentNote.Instrument = "Organ";
-            if(string.IsNullOrWhiteSpace(instrumentNote.Instrument))
+            {
+                instrumentNote.InstrumentDisplayName = instrumentNote.Instrument = instrumentNote.InstrumentFamily = "Organ";
+            }
+
+            if (string.IsNullOrWhiteSpace(instrumentNote.Instrument))
             {
                 instrumentNote.Instrument = "Drums";
                 instrumentNote.KitNote = value;
@@ -145,12 +161,21 @@ namespace MIdiBuddyWebTests
             return instrumentNote;
         }
 
+        class Result
+        {
+            public Dictionary<string, Dictionary<string, string>> KitInstruments { get; set; }
+
+            public List<JsonRecord> Records { get; set; }
+        }
+
         public class JsonRecord
         {
             public int Number { get; set; }
             public string MidiNote { get; set; }
             public int OctaveMiddleC3 { get; set; }
             public int OctaveMiddleC4 { get; set; }
+
+            public string Drums { get; set; }
 
             public Dictionary<string, InstrumentNote> Kits { get; set; }
         }
@@ -169,6 +194,9 @@ namespace MIdiBuddyWebTests
         public class InstrumentNote
         {
             public string Instrument { get; set; }
+            public string InstrumentDisplayName { get; set; }
+
+            public string InstrumentFamily { get; set; }
             public string KitNote { get; set; }
         }
 

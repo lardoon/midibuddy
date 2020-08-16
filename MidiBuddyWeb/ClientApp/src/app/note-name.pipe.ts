@@ -22,7 +22,7 @@ export class NoteNamePipe implements PipeTransform {
   ];
 
   transform(value: INote, ...args: any[]): any {
-    return [this.names[value.Number % 12], value.Octave].join(' ');
+    return [this.names[value.Number % 12], value.Octave].join('');
   }
 
 }

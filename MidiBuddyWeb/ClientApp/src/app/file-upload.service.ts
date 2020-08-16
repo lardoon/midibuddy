@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { HttpClient, HttpEvent, HttpRequest, HttpParams, HttpResponse, HttpEventType } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { IInstrument } from './model/GeneralMidiInstrumentList';
 
 @Injectable({
   providedIn: 'root'
@@ -62,7 +63,7 @@ export class FileUploadService {
       } else if (event instanceof HttpResponse) {
         return {
           progress: 100,
-          data: event.body
+          data: <IKitData> event.body
         }
       }
     }));
@@ -78,5 +79,34 @@ export class FileUploadService {
 
 export interface IResult {
   progress: number;
-  data: Object;
+  data: IKitData;
+}
+
+export interface IKitData {
+  KitList: Array<string>;
+  Kits: {
+    [key: string]: IKit
+  }
+}
+
+export interface IKit {
+  Instruments: {
+    [key: string]: IKitInstrument
+  },
+  Notes: {
+    [key: number] : IKitNote
+  }
+}
+
+export interface IKitInstrument {
+  DisplayName: string;
+  Family: string;
+}
+
+export interface IKitNote {
+  Number: number;
+  Note: string;
+  OctaveMiddleC4: number;
+  Instrument: string;
+  MidiNumber: number;
 }

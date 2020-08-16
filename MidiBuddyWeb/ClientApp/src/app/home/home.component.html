@@ -59,8 +59,8 @@
               <mat-grid-tile *ngFor="let trackNote of track.noteMap">
                 <mat-form-field appearance="outline">
                   <mat-label>{{ trackNote }}</mat-label>
-                  <mat-select >
-                    <mat-option *ngFor="let note of noteMap[trackNote][model.chosenKit] | keyvalue" value="note.key">{{note.value}}</mat-option>
+                  <mat-select [(ngModel)]="track.noteMap[trackNote]">
+                    <mat-option *ngFor="let note of kitNoteForKit(track.kitInstrumentName) | keyvalue" value="note.key">{{note.value}}</mat-option>
                     <mat-option value="ignore">-- Ignore --</mat-option>
                     <mat-option value="remove">-- Remove --</mat-option>
                   </mat-select>

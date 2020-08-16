@@ -28,6 +28,7 @@ export class HomeComponent implements OnInit {
 
   kitData: Array<any>;
   kits: any;
+  kitNotes: object;
   noteMap: object;
   model: TrackModel = {tracks:[]};
 
@@ -41,24 +42,38 @@ export class HomeComponent implements OnInit {
           this.progress = result.progress;
           console.log(`Kits are ${this.progress}% loaded.`);
         } else {
-          let data = this.kitData = <Array<any>>result.data;
+          let data = this.kitData = <Array<any>>result.data['Notes'];
           this.kits = {};
           this.noteMap = {};
+          let kitNames = {};
+          this.kitNotes = {};
           data.forEach((n) => {
             let kits = <Object>n.Kits;
-            let kitNotes = {};
+            
+            
             Object.keys(kits).forEach(k => {
               // for drums, OctaveMiddleC4 will be null
-              kitNotes[k] = [kits[k].KitNote, kits[k].OctaveMiddleC4].join('');
-
+              this.kitNotes[k] = this.kitNotes[k] || {};
+              this.kitNotes[k][kits[k].Instrument] = this.kitNotes[k][kits[k].Instrument] || [];
+              this.kitNotes[k][kits[k].Instrument].push([kits[k].KitNote, kits[k].OctaveMiddleC4].join(''));
+              kitNames[k] = null;
               let d = this.kits[k] || {};
               if (!Object.keys(d).includes(kits[k].Instrument)) {
-                d[kits[k].Instrument] = kits[k].DisplayInstrument || kits[k].Instrument;
+                d[kits[k].Instrument] = kits[k].InstrumentDisplayName || kits[k].Instrument;
               }
               this.kits[k] = d;
             })
-            this.noteMap[[n.MidiNote, n.OctaveMiddleC4].join('')] = kitNotes;
+            this.noteMap[[n.MidiNote, n.OctaveMiddleC4].join('')] = this.kitNotes;
           });
+          Object.keys(this.noteMap).forEach(n => {
+            let kit = this.noteMap[n];
+            Object.keys(kitNames).forEach(k => {
+              if (!Object.keys(kit).includes(k)) {
+                kit[k] = null;
+              }
+            })
+            
+          })
         }
       });
   }
@@ -95,7 +110,15 @@ export class HomeComponent implements OnInit {
           noteMap: track.Notes.map(n => this.noteNamePipe.transform(n))
         })
       })
-    }
+  }
+
+  kitNoteForKit(instrument) {
+    let notes = this.kitNotes[this.model.chosenKit][instrument];
+    if (!notes)
+      return {};
+    notes.sort();
+    return notes;
+  }
 
   setKitOnTracks() {
     this.model.tracks.forEach(t => {
