@@ -10,7 +10,7 @@
     <mat-form-field appearance="outline">
       <mat-label>BeatBuddy Drumkit</mat-label>
       <mat-select [(ngModel)]="model.chosenKit" (ngModelChange)="setKitOnTracks()">
-        <mat-option *ngFor="let kit of kits | keyvalue" [value]="kit.key">{{kit.key}}</mat-option>
+        <mat-option *ngFor="let kit of kits" [value]="kit">{{kit}}</mat-option>
       </mat-select>
       </mat-form-field>
       <table mat-table *ngIf="midiFileAnalysis" [dataSource]="model.tracks" class="mat-elevation-z8" multiTemplateDataRows>
@@ -44,7 +44,7 @@
           <th mat-header-cell *matHeaderCellDef> Kit Instrument </th>
           <td mat-cell *matCellDef="let track">
             <mat-select [(ngModel)]="track.kitInstrumentName">
-              <mat-option *ngFor="let kitInstrument of track.chosenKitInstruments | keyvalue" [value]="kitInstrument.key">{{kitInstrument.value}}</mat-option>
+              <mat-option *ngFor="let kitInstrument of track.chosenKitInstruments | keyvalue" [value]="kitInstrument.key">{{track.chosenKitInstruments[kitInstrument.key].DisplayName}}</mat-option>
               <mat-option value="ignore">-- Ignore --</mat-option>
               <mat-option value="remove">-- Remove --</mat-option>
             </mat-select>

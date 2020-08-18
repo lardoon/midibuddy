@@ -1,9 +1,12 @@
+import { IKit, IKitInstrument } from "../file-upload.service";
+
 export interface TrackModel {
   chosenKit?: string;
   tracks: Array<Track>;
 }
 
 export interface Track {
+  
   id: number;
   name?: string;
   channel: number;
@@ -11,6 +14,8 @@ export interface Track {
   instrumentNumber: number;
   instrumentFamily: string;
   kitInstrumentName?: string;
-  chosenKitInstruments?: Array<string>;
+  chosenKitInstruments?: {
+    [key: string]: IKitInstrument
+  }
   noteMap: object;
 }
